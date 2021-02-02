@@ -10,7 +10,10 @@
     "node": ">=14"
   },
   "scripts": {},
-  "repository": "github:0ams/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0ams/eslint-config.git"
+  },
   "bugs": {
     "url": "https://github.com/0ams/eslint-config/issues"
   },
@@ -28,5 +31,8 @@
   },
   "peerDependencies": {
     "eslint": "^7.19.0"
-  }
+  },
+  "keywords": [
+    "eslint"
+  ]
 }
